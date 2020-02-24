@@ -3,11 +3,11 @@ all_joints:
 - [1]
 - [2]
 - [3]
-all_joints_names: [hand, Finger1, Finger2, Joystick]
+all_joints_names: [snout, leftear, rightear, tailbase]
 bottomheight: 400
 crop: true
 cropratio: 0.4
-dataset: training-datasets\iteration-0\UnaugmentedDataSet_ReachingAug30\Reaching_Mackenzie95shuffle1.mat
+dataset: training-datasets\iteration-0\UnaugmentedDataSet_openfieldOct30\openfield_Pranav95shuffle1.mat
 display_iters: 1000
 global_scale: 0.8
 init_weights: C:\Users\mario\Anaconda3\envs\dlc-windowsGPU\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
@@ -19,7 +19,7 @@ locref_huber_loss: true
 locref_loss_weight: 0.05
 locref_stdev: 7.2801
 max_input_size: 1000
-metadataset: training-datasets\iteration-0\UnaugmentedDataSet_ReachingAug30\Documentation_data-Reaching_95shuffle1.pickle
+metadataset: training-datasets\iteration-0\UnaugmentedDataSet_openfieldOct30\Documentation_data-openfield_95shuffle1.pickle
 minsize: 100
 mirror: false
 multi_step:
@@ -30,7 +30,7 @@ multi_step:
 net_type: resnet_50
 num_joints: 4
 pos_dist_thresh: 17
-project_path: C:\Users\mario\Documents\GitHub\DeepLabCut\examples\Reaching-Mackenzie-2018-08-30
+project_path: C:\Users\mario\Documents\GitHub\DeepLabCut\examples\openfield-Pranav-2018-10-30
 rightwidth: 400
 save_iters: 50000
 scale_jitter_lo: 0.5

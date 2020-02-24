@@ -3,8 +3,8 @@ all_joints:
 - [1]
 - [2]
 - [3]
-all_joints_names: [hand, Finger1, Finger2, Joystick]
-dataset: training-datasets\iteration-0\UnaugmentedDataSet_ReachingAug30\Reaching_Mackenzie95shuffle1.mat
+all_joints_names: [snout, leftear, rightear, tailbase]
+dataset: training-datasets\iteration-0\UnaugmentedDataSet_openfieldOct30\openfield_Pranav95shuffle1.mat
 global_scale: 0.8
 init_weights: C:\Users\mario\Anaconda3\envs\dlc-windowsGPU\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
 location_refinement: true
